@@ -14,7 +14,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'IUDX', // Usually your GitHub org/user name.
   projectName: 'IUDX', // Usually your repo name.
 
   presets: [

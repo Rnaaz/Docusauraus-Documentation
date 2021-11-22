@@ -8,7 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'IUDX Documentation',
   tagline: 'Learn about exploring, building , deploying your apps with IUDX',
-  url: 'https://your-docusaurus-test-site.com',
+  // url: 'https://your-docusaurus-test-site.com',
+  url: 'https://iudx-docs-test.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

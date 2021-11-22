@@ -18,3 +18,32 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+#netlify
+website/netlifyDeployPreview/*
+!website/netlifyDeployPreview/index.html
+!website/netlifyDeployPreview/_redirects
+
+website/i18n/**/*
+.netlify

@@ -4,12 +4,12 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Getting Started',
+    Svg: require('../../static/img/getting_started.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        What is <a href={"https://iudx.org.in/"} target={"_blank"}>IUDX?</a>
+        
       </>
     ),
   },

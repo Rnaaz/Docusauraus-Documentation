@@ -57,6 +57,7 @@ const config = {
             label: 'Getting Started',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/new-page', label: 'NewPage', position: 'left'},
           {
             href: 'https://github.com/Rnaaz/Docusauraus-Documentation',
             label: 'GitHub',

@@ -8,7 +8,7 @@ We can create new pages with markdown file or by creating React component.
 
 :::info
 
-Check the [Pages Plugin API Reference documentation](./../api/plugins/plugin-content-pages.md) for an exhaustive list of options.
+Check the [Pages Plugin API Reference documentation]for an exhaustive list of options.
 
 :::
 

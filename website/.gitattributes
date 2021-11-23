@@ -1,0 +1,2 @@
+static/pdfs/** filter=lfs diff=lfs merge=lfs -text
+leopard-pics.jpg filter=lfs diff=lfs merge=lfs -text

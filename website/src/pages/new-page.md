@@ -42,37 +42,18 @@ function Hello() {
 
 export default Hello;
 ```
-
-    <!--DOCUSAURUS_CODE_TABS-->
-    <!--JavaScript-->
-    
-    ```js
-    console.log('Hello, world!');
-    ```
-    <!--Python-->
-    
-    ```py
-    print('Hello, world!')
-    ```
-
-    <!--C-->
-    
-    ```C
-    #include <stdio.h>
-
-    int main() {
-       printf("Hello World!");
-       return 0;
-    }
-    ```
-
-    <!--Pascal-->
-    
-    ```Pascal
-    program HelloWorld;
-    begin
-      WriteLn('Hello, world!');
-    end.
-    ```
-
-    <!--END_DOCUSAURUS_CODE_TABS-->
+<details>
+  <summary>Toggle me!</summary>
+  <div>
+    <div>This is the detailed content</div>
+    <br/>
+    <details>
+      <summary>
+        Nested toggle! Some surprise inside...
+      </summary>
+      <div>
+        😲😲😲😲😲
+      </div>
+    </details>
+  </div>
+</details>

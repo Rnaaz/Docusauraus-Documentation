@@ -6,6 +6,16 @@ title: Added New Page
 
 We can create new pages with markdown file or by creating React component.
 
+## Add an image through github link
+
+[GitHub image Link](https://raw.githubusercontent.com/Rnaaz/Demo_host_file/main/leopard-pics.jpg)
+
+[GitHub Pdf Link for Download](https://github.com/Rnaaz/Demo_host_file/blob/main/TestProject_automationTool.pdf?raw=true)
+
+[GitHub Pdf Link](https://rnaaz.github.io/TestProject_automationTool.pdf)
+
+
+
 :::info
 
 Check the [Pages Plugin API Reference documentation]for an exhaustive list of options.
@@ -57,3 +67,5 @@ export default Hello;
     </details>
   </div>
 </details>
+
+

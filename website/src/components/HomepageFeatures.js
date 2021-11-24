@@ -4,7 +4,8 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Getting Started',
+    title: <a href={"https://iudx.org.in/"} target={"_blank"}>Getting Started</a>,
+    link:"https://iudx.org.in/",
     Svg: require('../../static/img/getting_started.svg').default,
     description: (
       <>
@@ -14,8 +15,9 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Consuming datasets',
+    link:"https://iudx.org.in/",
+    Svg: require('../../static/img/consuming_data.svg').default,
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -24,8 +26,42 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Add your datasets to IUDX',
+    link:"https://iudx.org.in/",
+    Svg: require('../../static/img/datasets.svg').default,
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+  {
+    title: 'IUDX for data providers',
+    link:"https://iudx.org.in/",
+    Svg: require('../../static/img/provider.svg').default,
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+  {
+    title: 'API provider resources',
+    link:"https://iudx.org.in/",
+    Svg: require('../../static/img/Api.svg').default,
+    description: (
+      <>
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+  {
+    title: 'How to subscribe to a resource?',
+    link:"https://iudx.org.in/",
+    Svg: require('../../static/img/subscribe.svg').default,
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
@@ -35,17 +71,20 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, link, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
+    
+    <a className={`${clsx('col col--4')} ${styles.featureCard}`} href={link}><div>
+    <div classname={styles.featureCard}>
+    <div className="text--center">
+      <Svg className={styles.featureSvg} alt={title} />
     </div>
+    <div className="text--center padding-horiz--md">
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </div>
+  </div>
+  </div></a>
   );
 }
 

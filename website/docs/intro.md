@@ -41,7 +41,7 @@ IUDX was born out of the need to enable data exchange between various city depar
 
 Ensure your trial number is SMS-enabled and not restricted to sending/receiving messages and calls from local numbers. You can see your phone number’s capabilities on the Phone Numbers page in the Console:
 
- ![Smart-city](https://iudx.org.in/wp-content/uploads/2020/10/smart-city-planning-1.jpg)
+ ![Smart-city](../static/img/city_image.jpg)
 
 <!-- Get started by **creating a new site**.
 

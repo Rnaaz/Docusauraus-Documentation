@@ -74,7 +74,7 @@ const FeatureList = [
 function Feature({Svg, link, title, description}) {
   return (
     
-    <a className={`${clsx('col col--4')} ${styles.featureCard}`} href={link}><div>
+    <a className={`${clsx('col col--4')} ${styles.featureCard}`} href={link}><div className={clsx('border border--1')}>
     <div classname={styles.featureCard}>
     <div className="text--center">
       <Svg className={styles.featureSvg} alt={title} />

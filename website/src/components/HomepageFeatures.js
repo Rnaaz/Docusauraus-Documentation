@@ -4,8 +4,8 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: <a href={"https://iudx.org.in/"} target={"_blank"}>Getting Started</a>,
-    link:"https://iudx.org.in/",
+    title: 'Getting Started',
+    link:"../../docs/intro",
     Svg: require('../../static/img/getting_started.svg').default,
     description: (
       <>
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Consuming datasets',
-    link:"https://iudx.org.in/",
+    link:"",
     Svg: require('../../static/img/consuming_data.svg').default,
     description: (
       <>
@@ -27,7 +27,7 @@ const FeatureList = [
   },
   {
     title: 'Add your datasets to IUDX',
-    link:"https://iudx.org.in/",
+    link:"",
     Svg: require('../../static/img/datasets.svg').default,
     description: (
       <>
@@ -38,7 +38,7 @@ const FeatureList = [
   },
   {
     title: 'IUDX for data providers',
-    link:"https://iudx.org.in/",
+    link:"",
     Svg: require('../../static/img/provider.svg').default,
     description: (
       <>
@@ -49,7 +49,7 @@ const FeatureList = [
   },
   {
     title: 'API provider resources',
-    link:"https://iudx.org.in/",
+    link:"",
     Svg: require('../../static/img/Api.svg').default,
     description: (
       <>
@@ -60,7 +60,7 @@ const FeatureList = [
   },
   {
     title: 'How to subscribe to a resource?',
-    link:"https://iudx.org.in/",
+    link:"",
     Svg: require('../../static/img/subscribe.svg').default,
     description: (
       <>

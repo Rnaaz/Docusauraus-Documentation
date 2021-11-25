@@ -20,7 +20,6 @@ const config = {
   presets: [
     [
       '@docusaurus/preset-classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -42,7 +41,17 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    
     ({
+      hideOnScroll: true,
+      algolia:{
+        apiKey:'e97ada3dd14df6ed0585fa59685b8250',
+        indexName:'iudx',
+        contextualSearch:true,
+        placeholder:'Search here...',
+        appId:'INWOKNK00I',
+        //other search parameters
+      },
       navbar: {
         title: '',
         logo: {
@@ -114,6 +123,16 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+    //   plugins: [
+    //     [
+    //         '@docusaurus/plugin-sitemap',
+    //         {
+    //             cacheTime: 600 * 1000, // 600 sec - cache purge period
+    //             changefreq: 'weekly',
+    //             priority: 0.5,
+    //         },
+    //     ],
+    // ],
     }),
 };
 

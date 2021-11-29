@@ -14,7 +14,7 @@ sidebar_position: 1
 
  ### What is IUDX?
 
- IUDX was born out of the need to enable data exchange between various city departments, government agencies, citizens and private sector. IUDX helps the cities in using the data intelligently to address complex urban challenges, establish integrated development across various aspects of the urban sector and catapult them to the next stage of innovation. IUDX is completely open source, based on an underlying framework of open standard APIs, data models, and the security, privacy and accounting mechanisms that will facilitate its easy adoption across the digital ecosystem.
+IUDX was born out of the need to enable data exchange between various city departments, government agencies, citizens and private sector. IUDX helps the cities in using the data intelligently to address complex urban challenges, establish integrated development across various aspects of the urban sector and catapult them to the next stage of innovation. IUDX is completely open source, based on an underlying framework of open standard APIs, data models, and the security, privacy and accounting mechanisms that will facilitate its easy adoption across the digital ecosystem.
 
 
 ## Add your datasets to IUDX
